@@ -1,0 +1,13 @@
+body{
+   font-family: Arial;
+   text-align: center;
+}
+.todo{
+   margin: 10px auto;
+   width: 300px;
+   border: 1px solid #ccc;
+   padding: 10px;
+}
+.completed {
+  text-decoration: line-through;
+}
