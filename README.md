@@ -1,53 +1,31 @@
-# ✅ To-Do-List
+# 📝 To-Do-List
 
-A simple and clean To-Do List web application. This app allows users to add, update, delete, and mark tasks as completed. It follows a basic security configuration without authentication.
+A simple and elegant full-stack To-Do List web application that allows users to manage their daily tasks. Built using **Java**, **Spring Boot**, **MySQL**, **HTML**, **CSS**, and **JavaScript**, this project is perfect for beginners who want to explore full-stack development with a focus on CRUD operations and simple security configuration (without authentication).
 
 ---
 
 ## 📌 Features
 
-- Add new tasks to your to-do list
-- Edit existing tasks
-- Delete tasks
-- Mark tasks as complete or incomplete
-- View all, completed, and pending tasks
-- Simple user interface using HTML and CSS
-- Connected to a MySQL database using Spring Data JPA
-- Spring Boot based backend with basic security configuration (no login or auth)
+- ➕ Add new tasks
+- ✏️ Edit existing tasks
+- ✅ Mark tasks as completed
+- 🗑️ Delete tasks
+- 📋 View all tasks in a clean UI
+- 🎨 Responsive and intuitive design
+- 🔒 Basic Spring Security Configuration (no authentication or authorization)
 
 ---
 
-## 🛠️ Technologies Used
+## 🧰 Tech Stack
 
-- ☕ **Java 21**
-- 🌱 **Spring Boot**
-- 🛢️ **MySQL**
-- 📄 **Spring Data JPA**
-- 🖥️ **HTML5**
-- 🎨 **CSS3**
-- 🔐 **Spring Security (Basic Config Only)**
+### Backend
+- ☕ Java 17+
+- 🌱 Spring Boot (RESTful APIs)
+- 🐬 MySQL (Relational Database)
+- 🔒 Spring Security (Simple Config - No Login System)
 
----
+### Frontend
+- 🖼️ HTML5
+- 🎨 CSS3
+- 🧠 JavaScript (Vanilla)
 
-## ⚙️ Project Structure
-
-```plaintext
-To-Do-List/
-│
-├── src/
-│   ├── main/
-│   │   ├── java/
-│   │   │   └── com/example/todolist/
-│   │   │       ├── controller/
-│   │   │       ├── entity/
-│   │   │       ├── repository/
-│   │   │       └── service/
-│   │   ├── resources/
-│   │   │   ├── static/
-│   │   │   │   ├── css/
-│   │   │   │   └── js/
-│   │   │   ├── templates/
-│   │   │   └── application.properties
-│
-├── README.md
-└── pom.xml
